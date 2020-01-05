@@ -92,7 +92,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
                     <jvmArguments>-Dfile.encoding=UTF-8</jvmArguments>
-                    <mainClass>com.infinite.uri.core.service.ServerApplication</mainClass>
+                    <mainClass>com.web1.Web1ServerApplication</mainClass>
                 </configuration>
                 <executions>
                     <execution>
