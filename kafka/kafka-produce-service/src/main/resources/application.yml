@@ -1,0 +1,14 @@
+
+spring:
+  kafka:
+    #服务器地址
+    bootstrap-servers: 192.168.0.30:9092
+    producer:
+      retries: 0
+      batch-size: 16384
+      buffer-memory: 33554432
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+
+server:
+  port: 9999

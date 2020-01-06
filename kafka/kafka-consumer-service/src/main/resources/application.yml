@@ -1,0 +1,14 @@
+
+
+server:
+  port: 8888
+spring:
+  kafka:
+    consumer:
+      bootstrap-servers: 192.168.0.28:9092
+      group-id: test-consumer-group
+      auto-commit-interval: 100
+      enable-auto-commit: true
+      auto-offset-reset: earliest
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
